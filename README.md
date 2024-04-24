@@ -5,10 +5,11 @@
 Aqto is a PHP (Symfony by way of Drupal) based, composer driven opinionated CMS.
 
 ## Features
-- Composer driven, geared for distributions via the [Aqto Upstream](https://github.com/twfahey1/aqto_upstream.git)
+- Composer driven with an upstream setup to facilitate platform models via the [Aqto Upstream](https://github.com/twfahey1/aqto_upstream.git)
 - Geared for [Docksal](https://docksal.io)
 - Uses [Drupal](https://www.drupal.org) under the hood
 - Paragraphs, Layout Builder, and Media Library are the primary content creation tools.
+- TailwindCSS and AlpineJS are leveraged for the front end.
 
 ## Goals
 - Easy to use examples for API integrations, Commerce, and other common use cases.
