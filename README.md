@@ -24,5 +24,7 @@ composer create-project twfahey1/aqto_project -s dev my-aqto-project
 cd my-aqto-project
 composer install
 fin up && fin init-site && fin drush si -y
+# Optional: enable some default modules and login as admin
+fin drush en -y aqto_blocks -y && fin drush theme:enable aqto_theme_base -y && fin uli
 ```
 

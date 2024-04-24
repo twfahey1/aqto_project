@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "60cf2eb4528508f90a5d1c17abd252f8",
+    "content-hash": "94059a2e25d9481292bfff514695b887",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -9069,17 +9069,57 @@
             "time": "2021-07-09T16:11:23+00:00"
         },
         {
+            "name": "twfahey1/aqto_theme_base",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twfahey1/aqto_theme_base.git",
+                "reference": "6fd78586a60065ce77b5a669d24a26f7750088f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twfahey1/aqto_theme_base/zipball/6fd78586a60065ce77b5a669d24a26f7750088f4",
+                "reference": "6fd78586a60065ce77b5a669d24a26f7750088f4",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-theme",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tyler Fahey",
+                    "email": "twfahey1@gmail.com"
+                }
+            ],
+            "description": "Provides a base theme for Aqto sites.",
+            "homepage": "https://github.com/twfahey1/aqto_theme_base",
+            "keywords": [
+                "aqto",
+                "base",
+                "drupal",
+                "theme"
+            ],
+            "support": {
+                "issues": "https://github.com/twfahey1/aqto_theme_base/issues",
+                "source": "https://github.com/twfahey1/aqto_theme_base/tree/main"
+            },
+            "time": "2024-04-24T19:19:10+00:00"
+        },
+        {
             "name": "twfahey1/aqto_upstream",
             "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twfahey1/aqto_upstream.git",
-                "reference": "bf91fb8e8dabb0038d40e71fb95c60158a094d0c"
+                "reference": "8db343adacf3295f562e4a2085f1f6517f2340da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twfahey1/aqto_upstream/zipball/bf91fb8e8dabb0038d40e71fb95c60158a094d0c",
-                "reference": "bf91fb8e8dabb0038d40e71fb95c60158a094d0c",
+                "url": "https://api.github.com/repos/twfahey1/aqto_upstream/zipball/8db343adacf3295f562e4a2085f1f6517f2340da",
+                "reference": "8db343adacf3295f562e4a2085f1f6517f2340da",
                 "shasum": ""
             },
             "require": {
@@ -9111,6 +9151,7 @@
                 "drupal/xmlsitemap": "^1.4",
                 "drush/drush": "^12.0",
                 "php": ">=7.4",
+                "twfahey1/aqto_theme_base": "dev-main",
                 "vlucas/phpdotenv": "^5.1",
                 "webflo/drupal-finder": "^1.2"
             },
@@ -9168,7 +9209,7 @@
                 "source": "https://github.com/twfahey1/aqto_upstream/tree/main",
                 "issues": "https://github.com/twfahey1/aqto_upstream/issues"
             },
-            "time": "2024-04-24T16:12:52+00:00"
+            "time": "2024-04-24T21:08:33+00:00"
         },
         {
             "name": "twig/twig",
