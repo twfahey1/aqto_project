@@ -3842,60 +3842,6 @@
             }
         },
         {
-            "name": "drupal/tawk_to",
-            "version": "3.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/tawk_to.git",
-                "reference": "3.0.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/tawk_to-3.0.1.zip",
-                "reference": "3.0.1",
-                "shasum": "f88f8bc030e7c6580a7df2d9abeda10ac6422031"
-            },
-            "require": {
-                "drupal/core": "^8 || ^9 || ^10",
-                "php": ">=7.3"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "3.0.1",
-                    "datestamp": "1682261606",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "Andriy Khomych",
-                    "homepage": "https://www.drupal.org/u/andriy-khomych",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "Provides base intergraton with tawk.to service.",
-            "homepage": "https://www.drupal.org/project/tawk_to",
-            "keywords": [
-                "Drupal",
-                "chat",
-                "free chat",
-                "tawk",
-                "tawk.to"
-            ],
-            "support": {
-                "source": "http://cgit.drupalcode.org/tawk_to",
-                "issues": "https://www.drupal.org/project/issues/tawk_to"
-            }
-        },
-        {
             "name": "drupal/token",
             "version": "1.14.0",
             "source": {
@@ -9069,17 +9015,55 @@
             "time": "2021-07-09T16:11:23+00:00"
         },
         {
+            "name": "twfahey1/aqto_blocks",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twfahey1/aqto_blocks.git",
+                "reference": "c5c0c44c8b16712f209420e62f67f0284ea465b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twfahey1/aqto_blocks/zipball/c5c0c44c8b16712f209420e62f67f0284ea465b1",
+                "reference": "c5c0c44c8b16712f209420e62f67f0284ea465b1",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tyler Fahey",
+                    "email": "twfahey1@gmail.com"
+                }
+            ],
+            "description": "Provides blocks for Aqto sites.",
+            "homepage": "https://github.com/twfahey1/aqto_blocks",
+            "keywords": [
+                "drupal",
+                "module"
+            ],
+            "support": {
+                "issues": "https://github.com/twfahey1/aqto_blocks/issues",
+                "source": "https://github.com/twfahey1/aqto_blocks/tree/main"
+            },
+            "time": "2024-04-24T21:26:47+00:00"
+        },
+        {
             "name": "twfahey1/aqto_theme_base",
             "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twfahey1/aqto_theme_base.git",
-                "reference": "6fd78586a60065ce77b5a669d24a26f7750088f4"
+                "reference": "0a10e8f00545f3307fd8609b2efafb1f9b4a7b1c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twfahey1/aqto_theme_base/zipball/6fd78586a60065ce77b5a669d24a26f7750088f4",
-                "reference": "6fd78586a60065ce77b5a669d24a26f7750088f4",
+                "url": "https://api.github.com/repos/twfahey1/aqto_theme_base/zipball/0a10e8f00545f3307fd8609b2efafb1f9b4a7b1c",
+                "reference": "0a10e8f00545f3307fd8609b2efafb1f9b4a7b1c",
                 "shasum": ""
             },
             "default-branch": true,
@@ -9106,7 +9090,7 @@
                 "issues": "https://github.com/twfahey1/aqto_theme_base/issues",
                 "source": "https://github.com/twfahey1/aqto_theme_base/tree/main"
             },
-            "time": "2024-04-24T19:19:10+00:00"
+            "time": "2024-04-24T21:35:15+00:00"
         },
         {
             "name": "twfahey1/aqto_upstream",
@@ -9114,12 +9098,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twfahey1/aqto_upstream.git",
-                "reference": "8db343adacf3295f562e4a2085f1f6517f2340da"
+                "reference": "923f72a97a1543bd812c307e5ba194b299881d0e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twfahey1/aqto_upstream/zipball/8db343adacf3295f562e4a2085f1f6517f2340da",
-                "reference": "8db343adacf3295f562e4a2085f1f6517f2340da",
+                "url": "https://api.github.com/repos/twfahey1/aqto_upstream/zipball/923f72a97a1543bd812c307e5ba194b299881d0e",
+                "reference": "923f72a97a1543bd812c307e5ba194b299881d0e",
                 "shasum": ""
             },
             "require": {
@@ -9145,12 +9129,12 @@
                 "drupal/paragraphs": "^1.15",
                 "drupal/pathauto": "^1.11",
                 "drupal/symfony_mailer": "^1.2",
-                "drupal/tawk_to": "^3.0",
                 "drupal/turnstile": "^1.1",
                 "drupal/webform": "^6",
                 "drupal/xmlsitemap": "^1.4",
                 "drush/drush": "^12.0",
                 "php": ">=7.4",
+                "twfahey1/aqto_blocks": "dev-main",
                 "twfahey1/aqto_theme_base": "dev-main",
                 "vlucas/phpdotenv": "^5.1",
                 "webflo/drupal-finder": "^1.2"
@@ -9209,7 +9193,7 @@
                 "source": "https://github.com/twfahey1/aqto_upstream/tree/main",
                 "issues": "https://github.com/twfahey1/aqto_upstream/issues"
             },
-            "time": "2024-04-24T21:08:33+00:00"
+            "time": "2024-04-24T21:22:10+00:00"
         },
         {
             "name": "twig/twig",
