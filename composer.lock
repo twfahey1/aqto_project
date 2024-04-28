@@ -9053,6 +9053,44 @@
             "time": "2024-04-24T21:26:47+00:00"
         },
         {
+            "name": "twfahey1/aqto_defaults",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twfahey1/aqto_defaults.git",
+                "reference": "446dcdd4a0e4a82d71e7c375731f653393d8b33d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twfahey1/aqto_defaults/zipball/446dcdd4a0e4a82d71e7c375731f653393d8b33d",
+                "reference": "446dcdd4a0e4a82d71e7c375731f653393d8b33d",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tyler Fahey",
+                    "email": "twfahey1@gmail.com"
+                }
+            ],
+            "description": "A Drupal module which provides default configuration for an Aqto project. This gets Aqto projects up and running quickly with a standard set of features.",
+            "homepage": "https://github.com/twfahey1/aqto_defaults",
+            "keywords": [
+                "drupal",
+                "module"
+            ],
+            "support": {
+                "issues": "https://github.com/twfahey1/aqto_defaults/issues",
+                "source": "https://github.com/twfahey1/aqto_defaults/tree/main"
+            },
+            "time": "2024-04-28T20:36:56+00:00"
+        },
+        {
             "name": "twfahey1/aqto_theme_base",
             "version": "dev-main",
             "source": {
@@ -9098,12 +9136,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twfahey1/aqto_upstream.git",
-                "reference": "923f72a97a1543bd812c307e5ba194b299881d0e"
+                "reference": "3b1cfb2df2ffb9b464e4bbcb666fc1c88fb3958f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twfahey1/aqto_upstream/zipball/923f72a97a1543bd812c307e5ba194b299881d0e",
-                "reference": "923f72a97a1543bd812c307e5ba194b299881d0e",
+                "url": "https://api.github.com/repos/twfahey1/aqto_upstream/zipball/3b1cfb2df2ffb9b464e4bbcb666fc1c88fb3958f",
+                "reference": "3b1cfb2df2ffb9b464e4bbcb666fc1c88fb3958f",
                 "shasum": ""
             },
             "require": {
@@ -9135,6 +9173,7 @@
                 "drush/drush": "^12.0",
                 "php": ">=7.4",
                 "twfahey1/aqto_blocks": "dev-main",
+                "twfahey1/aqto_defaults": "dev-main",
                 "twfahey1/aqto_theme_base": "dev-main",
                 "vlucas/phpdotenv": "^5.1",
                 "webflo/drupal-finder": "^1.2"
@@ -9193,7 +9232,7 @@
                 "source": "https://github.com/twfahey1/aqto_upstream/tree/main",
                 "issues": "https://github.com/twfahey1/aqto_upstream/issues"
             },
-            "time": "2024-04-24T21:22:10+00:00"
+            "time": "2024-04-28T20:38:00+00:00"
         },
         {
             "name": "twig/twig",
