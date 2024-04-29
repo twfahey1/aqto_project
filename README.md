@@ -2,7 +2,11 @@
 <!-- Lets do an image here for the images/aqto-logo-western.png -->
 ![Aqto Logo](images/aqto-logo-western.png)
 
-Aqto is a PHP (Symfony by way of Drupal) based, composer driven opinionated CMS.
+Aqto is an opinionated stack of frameworks aiming to provide maximum flexibility, longevity, and maintainability.
+
+- Drupal
+- Tailwind
+- AlpineJS
 
 ## Features
 - Composer driven with an upstream setup to facilitate platform models via the [Aqto Upstream](https://github.com/twfahey1/aqto_upstream.git)
@@ -25,6 +29,6 @@ cd my-aqto-project
 composer install
 fin up && fin init-site && fin drush si -y
 # Optional: enable some default modules and login as admin
-fin drush en -y aqto_blocks -y && fin drush theme:enable aqto_theme_base -y && fin uli
+fin drush en -y aqto_defaults -y && fin uli
 ```
 
