@@ -3,10 +3,20 @@
 ![Aqto Logo](images/aqto-logo-western.png)
 
 Aqto is an opinionated stack of frameworks aiming to provide maximum flexibility, longevity, and maintainability.
+## Preqrequisites
+- Docksal - https://docksal.io
+- Composer - https://getcomposer.org/download
+- Git
 
-- Drupal
-- Tailwind
-- AlpineJS
+## Quickstart
+```bash
+composer create-project twfahey1/aqto_project -s dev my-aqto-project 
+cd my-aqto-project
+composer install
+fin up && fin init-site && fin drush si -y
+# Optional: enable some default modules and login as admin
+fin drush en -y aqto_defaults -y && fin uli
+```
 
 ## Features
 - Composer driven with an upstream setup to facilitate platform models via the [Aqto Upstream](https://github.com/twfahey1/aqto_upstream.git)
@@ -22,13 +32,4 @@ Aqto is an opinionated stack of frameworks aiming to provide maximum flexibility
 - A standard Tailwind theme aqto_theme_base will be included.
 - Aqto will be a good starting point for a variety of web projects and encourage best practices for always facilitating customizability, maintability and scalability.
 
-## Quickstart
-```bash
-composer create-project twfahey1/aqto_project -s dev my-aqto-project 
-cd my-aqto-project
-composer install
-fin up && fin init-site && fin drush si -y
-# Optional: enable some default modules and login as admin
-fin drush en -y aqto_defaults -y && fin uli
-```
 
