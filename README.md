@@ -6,7 +6,6 @@ Aqto is an opinionated stack of frameworks aiming to provide maximum flexibility
 ## Preqrequisites
 - Docksal - https://docksal.io
 - Composer - https://getcomposer.org/download
-- Git
 
 ## Quickstart
 ```bash
