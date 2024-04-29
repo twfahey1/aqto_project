@@ -17,18 +17,12 @@ fin up && fin init-site && fin drush si -y
 fin drush en -y aqto_defaults -y && fin uli
 ```
 
+## Goals
+Aqto aims to be a good starting point for a variety of web projects and encourage best practices for always facilitating customizability, maintability and scalability. It aims to be an easy to use platform for a wide range of apps, providing comprehensive examples for API integrations, Commerce, and other common use cases.
+
 ## Features
 - Composer driven with an upstream setup to facilitate platform models via the [Aqto Upstream](https://github.com/twfahey1/aqto_upstream.git)
 - Geared for [Docksal](https://docksal.io)
 - Uses [Drupal](https://www.drupal.org) under the hood
 - Paragraphs, Layout Builder, and Media Library are the primary content creation tools.
 - TailwindCSS and AlpineJS are leveraged for the front end.
-
-## Goals
-- Easy to use examples for API integrations, Commerce, and other common use cases.
-- Aqto Upstream will be the primary distribution for Aqto.
-- Aqto will be a composer driven, opinionated CMS.
-- A standard Tailwind theme aqto_theme_base will be included.
-- Aqto will be a good starting point for a variety of web projects and encourage best practices for always facilitating customizability, maintability and scalability.
-
-
