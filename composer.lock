@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94059a2e25d9481292bfff514695b887",
+    "content-hash": "8cacdba53d961a23e1c2e801e979fc16",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -9022,12 +9022,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twfahey1/aqto_blocks.git",
-                "reference": "160dc1440a67dbbec68dfc5bacc8d21b364eb06f"
+                "reference": "d12917c9c905377546e5a1cd34815d0e61b726f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twfahey1/aqto_blocks/zipball/160dc1440a67dbbec68dfc5bacc8d21b364eb06f",
-                "reference": "160dc1440a67dbbec68dfc5bacc8d21b364eb06f",
+                "url": "https://api.github.com/repos/twfahey1/aqto_blocks/zipball/d12917c9c905377546e5a1cd34815d0e61b726f3",
+                "reference": "d12917c9c905377546e5a1cd34815d0e61b726f3",
                 "shasum": ""
             },
             "default-branch": true,
@@ -9052,7 +9052,7 @@
                 "issues": "https://github.com/twfahey1/aqto_blocks/issues",
                 "source": "https://github.com/twfahey1/aqto_blocks/tree/main"
             },
-            "time": "2024-04-30T13:43:27+00:00"
+            "time": "2024-04-30T16:59:07+00:00"
         },
         {
             "name": "twfahey1/aqto_defaults",
@@ -9259,19 +9259,17 @@
                     ]
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0+"
             ],
             "authors": [
-                {
-                    "name": "",
-                    "role": ""
-                }
+                []
             ],
             "description": "Defines common dependencies for Aqto projects.",
             "support": {
-                "source": "https://github.com/twfahey1/aqto_upstream/tree/main",
-                "issues": "https://github.com/twfahey1/aqto_upstream/issues"
+                "issues": "https://github.com/twfahey1/aqto_upstream/issues",
+                "source": "https://github.com/twfahey1/aqto_upstream/tree/main"
             },
             "time": "2024-04-30T14:02:29+00:00"
         },

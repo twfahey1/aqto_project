@@ -22,7 +22,7 @@ composer create-project twfahey1/aqto_project -s dev [site_name] && cd [site_nam
 
 
 ## Goals
-Aqto aims to be a good starting point for a variety of web projects and encourage best practices for always facilitating customizability, maintability and scalability. It aims to be an easy to use platform for a wide range of apps, providing comprehensive examples for API integrations, Commerce, and other common use cases.
+Aqto aims to be living documentation as an ideal starting template for a variety of web products and encourage best practices for always facilitating customizability, maintability and scalability. It aims to be an easy to use platform for a wide range of apps, providing comprehensive examples for API integrations, Commerce, and other common use cases.
 
 ## Features
 - Composer driven with an upstream setup to facilitate platform models via the [Aqto Upstream](https://github.com/twfahey1/aqto_upstream.git)
@@ -30,3 +30,9 @@ Aqto aims to be a good starting point for a variety of web projects and encourag
 - Uses [Drupal](https://www.drupal.org) under the hood
 - Paragraphs, Layout Builder, and Media Library are the primary content creation tools.
 - TailwindCSS and AlpineJS are leveraged for the front end.
+
+## Hosting an Aqto project with Pantheon
+This project serves as more of a general purpose template. If you are looking to host an Aqto project with Pantheon, you should be able to simply require the [Aqto Upstream](https://github.com/twfahey1/aqto_upstream.git) in your project. Here are the steps to do so:
+- Create a Drupal 10 site on Pantheon that is Composer managed.
+- Run a `composer require twfahey1/aqto_upstream` in the root of the project.
+- Enable the `aqto_defaults` or whatever pieces of Aqto are desired for the project.

@@ -13,10 +13,6 @@
     "drupal": {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
-    },
-    "aqto_upstream": {
-      "type": "vcs",
-      "url": "https://github.com/twfahey1/aqto_upstream.git"
     }
   },
   "require": {
