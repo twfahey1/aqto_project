@@ -15,7 +15,11 @@ composer install
 fin up && fin init-site && fin drush si -y
 # Optional: enable some default modules and login as admin
 fin drush en -y aqto_defaults -y && fin uli
+
+# One shot command - just replace [site_name] in the two places below:
+composer create-project twfahey1/aqto_project -s dev [site_name] && cd [site_name] && composer install && fin up && fin init-site && fin drush si -y && fin drush en -y aqto_defaults -y && fin uli
 ```
+
 
 ## Goals
 Aqto aims to be a good starting point for a variety of web projects and encourage best practices for always facilitating customizability, maintability and scalability. It aims to be an easy to use platform for a wide range of apps, providing comprehensive examples for API integrations, Commerce, and other common use cases.
