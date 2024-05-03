@@ -2056,16 +2056,16 @@
         },
         {
             "name": "drupal/core",
-            "version": "10.2.5",
+            "version": "10.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core.git",
-                "reference": "dddd242b74f40df892a7f16a48245c3b76d9b003"
+                "reference": "cec9bc9e829e53e667da844edd5f4897be88d860"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core/zipball/dddd242b74f40df892a7f16a48245c3b76d9b003",
-                "reference": "dddd242b74f40df892a7f16a48245c3b76d9b003",
+                "url": "https://api.github.com/repos/drupal/core/zipball/cec9bc9e829e53e667da844edd5f4897be88d860",
+                "reference": "cec9bc9e829e53e667da844edd5f4897be88d860",
                 "shasum": ""
             },
             "require": {
@@ -2213,22 +2213,22 @@
             ],
             "description": "Drupal is an open source content management platform powering millions of websites and applications.",
             "support": {
-                "source": "https://github.com/drupal/core/tree/10.2.5"
+                "source": "https://github.com/drupal/core/tree/10.2.6"
             },
-            "time": "2024-04-03T07:19:20+00:00"
+            "time": "2024-05-01T21:00:24+00:00"
         },
         {
             "name": "drupal/core-composer-scaffold",
-            "version": "10.2.5",
+            "version": "10.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-composer-scaffold.git",
-                "reference": "63effa1bc644e80a269e8b4415e627491d26fd3f"
+                "reference": "adc702b6ef38a0446abe90267acb96aa806995cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-composer-scaffold/zipball/63effa1bc644e80a269e8b4415e627491d26fd3f",
-                "reference": "63effa1bc644e80a269e8b4415e627491d26fd3f",
+                "url": "https://api.github.com/repos/drupal/core-composer-scaffold/zipball/adc702b6ef38a0446abe90267acb96aa806995cf",
+                "reference": "adc702b6ef38a0446abe90267acb96aa806995cf",
                 "shasum": ""
             },
             "require": {
@@ -2263,22 +2263,22 @@
                 "drupal"
             ],
             "support": {
-                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.2.5"
+                "source": "https://github.com/drupal/core-composer-scaffold/tree/10.2.6"
             },
-            "time": "2024-01-26T14:59:30+00:00"
+            "time": "2024-04-09T07:27:23+00:00"
         },
         {
             "name": "drupal/core-recommended",
-            "version": "10.2.5",
+            "version": "10.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drupal/core-recommended.git",
-                "reference": "bd7fe9e734a82762814d9c31255cd362d9c044f1"
+                "reference": "6fbff9a26e06c047ec4a2313fc423a7a1c51c850"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/bd7fe9e734a82762814d9c31255cd362d9c044f1",
-                "reference": "bd7fe9e734a82762814d9c31255cd362d9c044f1",
+                "url": "https://api.github.com/repos/drupal/core-recommended/zipball/6fbff9a26e06c047ec4a2313fc423a7a1c51c850",
+                "reference": "6fbff9a26e06c047ec4a2313fc423a7a1c51c850",
                 "shasum": ""
             },
             "require": {
@@ -2287,7 +2287,7 @@
                 "doctrine/annotations": "~1.14.3",
                 "doctrine/deprecations": "~1.1.2",
                 "doctrine/lexer": "~2.1.0",
-                "drupal/core": "10.2.5",
+                "drupal/core": "10.2.6",
                 "egulias/email-validator": "~4.0.2",
                 "guzzlehttp/guzzle": "~7.8.1",
                 "guzzlehttp/promises": "~2.0.2",
@@ -2348,9 +2348,9 @@
             ],
             "description": "Core and its dependencies with known-compatible minor versions. Require this project INSTEAD OF drupal/core.",
             "support": {
-                "source": "https://github.com/drupal/core-recommended/tree/10.2.5"
+                "source": "https://github.com/drupal/core-recommended/tree/10.2.6"
             },
-            "time": "2024-04-03T07:19:20+00:00"
+            "time": "2024-05-01T21:00:24+00:00"
         },
         {
             "name": "drupal/ctools",
@@ -4167,16 +4167,16 @@
         },
         {
             "name": "drush/drush",
-            "version": "12.5.1",
+            "version": "12.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/drush-ops/drush.git",
-                "reference": "71fcea30a22e7336e17be18bb5945400b2c63fad"
+                "reference": "4aebed85dc818ff762f2e24a85b023d2a52050df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/drush-ops/drush/zipball/71fcea30a22e7336e17be18bb5945400b2c63fad",
-                "reference": "71fcea30a22e7336e17be18bb5945400b2c63fad",
+                "url": "https://api.github.com/repos/drush-ops/drush/zipball/4aebed85dc818ff762f2e24a85b023d2a52050df",
+                "reference": "4aebed85dc818ff762f2e24a85b023d2a52050df",
                 "shasum": ""
             },
             "require": {
@@ -4299,7 +4299,7 @@
                 "issues": "https://github.com/drush-ops/drush/issues",
                 "security": "https://github.com/drush-ops/drush/security/advisories",
                 "slack": "https://drupal.slack.com/messages/C62H9CWQM",
-                "source": "https://github.com/drush-ops/drush/tree/12.5.1"
+                "source": "https://github.com/drush-ops/drush/tree/12.5.2"
             },
             "funding": [
                 {
@@ -4307,7 +4307,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-03-20T15:03:27+00:00"
+            "time": "2024-05-02T17:20:48+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -9017,6 +9017,44 @@
             "time": "2021-07-09T16:11:23+00:00"
         },
         {
+            "name": "twfahey1/aqto_ai_core",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twfahey1/aqto_ai_core.git",
+                "reference": "cedf66f992f3075be981e56771dfaf86ef077f91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twfahey1/aqto_ai_core/zipball/cedf66f992f3075be981e56771dfaf86ef077f91",
+                "reference": "cedf66f992f3075be981e56771dfaf86ef077f91",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tyler Fahey",
+                    "email": "twfahey1@gmail.com"
+                }
+            ],
+            "description": "A Drupal module which provides a base for AI functionality for Aqto projects.",
+            "homepage": "https://github.com/twfahey1/aqto_ai_core",
+            "keywords": [
+                "drupal",
+                "module"
+            ],
+            "support": {
+                "issues": "https://github.com/twfahey1/aqto_ai_core/issues",
+                "source": "https://github.com/twfahey1/aqto_ai_core/tree/main"
+            },
+            "time": "2024-05-03T19:30:41+00:00"
+        },
+        {
             "name": "twfahey1/aqto_blocks",
             "version": "dev-main",
             "source": {
@@ -9060,12 +9098,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twfahey1/aqto_defaults.git",
-                "reference": "037466072013a13b1797548dc2d6f3569659f0f2"
+                "reference": "cff27eacd96e38a0cfa12043081a6ad2de9fae8d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twfahey1/aqto_defaults/zipball/037466072013a13b1797548dc2d6f3569659f0f2",
-                "reference": "037466072013a13b1797548dc2d6f3569659f0f2",
+                "url": "https://api.github.com/repos/twfahey1/aqto_defaults/zipball/cff27eacd96e38a0cfa12043081a6ad2de9fae8d",
+                "reference": "cff27eacd96e38a0cfa12043081a6ad2de9fae8d",
                 "shasum": ""
             },
             "default-branch": true,
@@ -9090,7 +9128,7 @@
                 "issues": "https://github.com/twfahey1/aqto_defaults/issues",
                 "source": "https://github.com/twfahey1/aqto_defaults/tree/main"
             },
-            "time": "2024-04-30T13:58:56+00:00"
+            "time": "2024-05-01T18:15:21+00:00"
         },
         {
             "name": "twfahey1/aqto_page",
@@ -9136,12 +9174,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twfahey1/aqto_theme_base.git",
-                "reference": "d661e00d4446aa64d64854041b854160942197f8"
+                "reference": "7871140b903822e78f880aaa6051f3b2ad6a428a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twfahey1/aqto_theme_base/zipball/d661e00d4446aa64d64854041b854160942197f8",
-                "reference": "d661e00d4446aa64d64854041b854160942197f8",
+                "url": "https://api.github.com/repos/twfahey1/aqto_theme_base/zipball/7871140b903822e78f880aaa6051f3b2ad6a428a",
+                "reference": "7871140b903822e78f880aaa6051f3b2ad6a428a",
                 "shasum": ""
             },
             "default-branch": true,
@@ -9168,7 +9206,7 @@
                 "issues": "https://github.com/twfahey1/aqto_theme_base/issues",
                 "source": "https://github.com/twfahey1/aqto_theme_base/tree/main"
             },
-            "time": "2024-04-30T13:44:10+00:00"
+            "time": "2024-05-01T18:29:53+00:00"
         },
         {
             "name": "twfahey1/aqto_upstream",
@@ -9176,12 +9214,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twfahey1/aqto_upstream.git",
-                "reference": "6f08e14bc2c409a6d400f74144d064a255ec0d80"
+                "reference": "cef3966673dd70b96c87d4efa862a6e71939ba46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twfahey1/aqto_upstream/zipball/6f08e14bc2c409a6d400f74144d064a255ec0d80",
-                "reference": "6f08e14bc2c409a6d400f74144d064a255ec0d80",
+                "url": "https://api.github.com/repos/twfahey1/aqto_upstream/zipball/cef3966673dd70b96c87d4efa862a6e71939ba46",
+                "reference": "cef3966673dd70b96c87d4efa862a6e71939ba46",
                 "shasum": ""
             },
             "require": {
@@ -9212,6 +9250,7 @@
                 "drupal/xmlsitemap": "^1.4",
                 "drush/drush": "^12.0",
                 "php": ">=7.4",
+                "twfahey1/aqto_ai_core": "dev-main",
                 "twfahey1/aqto_blocks": "dev-main",
                 "twfahey1/aqto_defaults": "dev-main",
                 "twfahey1/aqto_page": "dev-main",
@@ -9271,7 +9310,7 @@
                 "issues": "https://github.com/twfahey1/aqto_upstream/issues",
                 "source": "https://github.com/twfahey1/aqto_upstream/tree/main"
             },
-            "time": "2024-04-30T14:02:29+00:00"
+            "time": "2024-05-03T19:35:41+00:00"
         },
         {
             "name": "twig/twig",
