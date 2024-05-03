@@ -9022,12 +9022,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twfahey1/aqto_ai_core.git",
-                "reference": "cedf66f992f3075be981e56771dfaf86ef077f91"
+                "reference": "2414fd2a2bb5dce1a73daa412ff26a5828f74c2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twfahey1/aqto_ai_core/zipball/cedf66f992f3075be981e56771dfaf86ef077f91",
-                "reference": "cedf66f992f3075be981e56771dfaf86ef077f91",
+                "url": "https://api.github.com/repos/twfahey1/aqto_ai_core/zipball/2414fd2a2bb5dce1a73daa412ff26a5828f74c2b",
+                "reference": "2414fd2a2bb5dce1a73daa412ff26a5828f74c2b",
                 "shasum": ""
             },
             "default-branch": true,
@@ -9052,7 +9052,7 @@
                 "issues": "https://github.com/twfahey1/aqto_ai_core/issues",
                 "source": "https://github.com/twfahey1/aqto_ai_core/tree/main"
             },
-            "time": "2024-05-03T19:30:41+00:00"
+            "time": "2024-05-03T19:44:18+00:00"
         },
         {
             "name": "twfahey1/aqto_blocks",

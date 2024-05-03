@@ -1,8 +1,9 @@
-# Aqto
+# *Aqto: Adaptive, quality technology orchestration.*
 <!-- Lets do an image here for the images/aqto-logo-western.png -->
 ![Aqto Logo](images/aqto-logo-western.png)
 
-Aqto is an opinionated stack of frameworks aiming to provide maximum flexibility, longevity, and maintainability.
+Aqto is an opinionated stack of backend and frontend frameworks, that can be used interchangeably, aiming to provide maximum flexibility, longevity, and maintainability across a variety of project types. It is a Drupal 10 based project that is designed to be a starting point for a variety of web projects. It is designed to be a platform for a variety of web products, providing comprehensive examples for API integrations, Commerce, and other common use cases.
+
 ## Preqrequisites
 - Docksal - https://docksal.io
 - Composer - https://getcomposer.org/download
