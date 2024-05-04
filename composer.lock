@@ -4067,6 +4067,65 @@
             }
         },
         {
+            "name": "drupal/webp",
+            "version": "1.0.0-rc2",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/webp.git",
+                "reference": "8.x-1.0-rc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/webp-8.x-1.0-rc2.zip",
+                "reference": "8.x-1.0-rc2",
+                "shasum": "16a1d2c29af57ac04603bcba275e732340491554"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10 || ^11",
+                "ext-gd": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.0-rc2",
+                    "datestamp": "1713170119",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "RC releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Bart Vanhoutte",
+                    "homepage": "https://www.drupal.org/user/145609",
+                    "email": "bart@croquemonsieur.be",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "Bart Vanhoutte",
+                    "homepage": "https://www.drupal.org/user/1133754"
+                },
+                {
+                    "name": "mandclu",
+                    "homepage": "https://www.drupal.org/user/52136"
+                }
+            ],
+            "description": "Generates WebP copies of image style derivatives.",
+            "homepage": "https://www.drupal.org/project/webp",
+            "keywords": [
+                "Drupal"
+            ],
+            "support": {
+                "source": "http://cgit.drupalcode.org/webp",
+                "issues": "https://www.drupal.org/project/issues/webp"
+            }
+        },
+        {
             "name": "drupal/xmlsitemap",
             "version": "1.5.0",
             "source": {
@@ -9214,12 +9273,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twfahey1/aqto_upstream.git",
-                "reference": "cef3966673dd70b96c87d4efa862a6e71939ba46"
+                "reference": "fa998bc312a2f33dd1743accce5c8506f6414f83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twfahey1/aqto_upstream/zipball/cef3966673dd70b96c87d4efa862a6e71939ba46",
-                "reference": "cef3966673dd70b96c87d4efa862a6e71939ba46",
+                "url": "https://api.github.com/repos/twfahey1/aqto_upstream/zipball/fa998bc312a2f33dd1743accce5c8506f6414f83",
+                "reference": "fa998bc312a2f33dd1743accce5c8506f6414f83",
                 "shasum": ""
             },
             "require": {
@@ -9247,6 +9306,7 @@
                 "drupal/symfony_mailer": "^1.2",
                 "drupal/turnstile": "^1.1",
                 "drupal/webform": "^6",
+                "drupal/webp": "^1.0@RC",
                 "drupal/xmlsitemap": "^1.4",
                 "drush/drush": "^12.0",
                 "php": ">=7.4",
@@ -9310,7 +9370,7 @@
                 "issues": "https://github.com/twfahey1/aqto_upstream/issues",
                 "source": "https://github.com/twfahey1/aqto_upstream/tree/main"
             },
-            "time": "2024-05-03T19:35:41+00:00"
+            "time": "2024-05-03T20:05:20+00:00"
         },
         {
             "name": "twig/twig",
