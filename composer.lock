@@ -9345,6 +9345,44 @@
             "time": "2024-05-04T12:23:06+00:00"
         },
         {
+            "name": "twfahey1/aqto_text_formats",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twfahey1/aqto_text_formats.git",
+                "reference": "e13ab06e6b474c8e040129de64105c29ec44ac60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twfahey1/aqto_text_formats/zipball/e13ab06e6b474c8e040129de64105c29ec44ac60",
+                "reference": "e13ab06e6b474c8e040129de64105c29ec44ac60",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-module",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Tyler Fahey",
+                    "email": "twfahey1@gmail.com"
+                }
+            ],
+            "description": "A Drupal module provides text format settings for use in Aqto projects.",
+            "homepage": "https://github.com/twfahey1/aqto_text_formats",
+            "keywords": [
+                "drupal",
+                "module"
+            ],
+            "support": {
+                "issues": "https://github.com/twfahey1/aqto_text_formats/issues",
+                "source": "https://github.com/twfahey1/aqto_text_formats/tree/main"
+            },
+            "time": "2024-05-07T18:27:11+00:00"
+        },
+        {
             "name": "twfahey1/aqto_theme_base",
             "version": "dev-main",
             "source": {
@@ -9390,12 +9428,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twfahey1/aqto_upstream.git",
-                "reference": "18b66704a62c0e15f7169aafc684a3beaf7589df"
+                "reference": "024cfa9714a0b787f3d7015a7679a24579d61b6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twfahey1/aqto_upstream/zipball/18b66704a62c0e15f7169aafc684a3beaf7589df",
-                "reference": "18b66704a62c0e15f7169aafc684a3beaf7589df",
+                "url": "https://api.github.com/repos/twfahey1/aqto_upstream/zipball/024cfa9714a0b787f3d7015a7679a24579d61b6a",
+                "reference": "024cfa9714a0b787f3d7015a7679a24579d61b6a",
                 "shasum": ""
             },
             "require": {
@@ -9434,6 +9472,7 @@
                 "twfahey1/aqto_layout_builder_styles": "dev-main",
                 "twfahey1/aqto_page": "dev-main",
                 "twfahey1/aqto_static": "dev-main",
+                "twfahey1/aqto_text_formats": "dev-main",
                 "twfahey1/aqto_theme_base": "dev-main",
                 "vlucas/phpdotenv": "^5.1",
                 "webflo/drupal-finder": "^1.2"
@@ -9490,7 +9529,7 @@
                 "issues": "https://github.com/twfahey1/aqto_upstream/issues",
                 "source": "https://github.com/twfahey1/aqto_upstream/tree/main"
             },
-            "time": "2024-05-07T05:19:24+00:00"
+            "time": "2024-05-07T18:29:24+00:00"
         },
         {
             "name": "twig/twig",
