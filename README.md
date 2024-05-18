@@ -11,14 +11,12 @@ Aqto is an opinionated stack of backend and frontend frameworks, that can be use
 ## Quickstart
 ```bash
 composer create-project twfahey1/aqto_project -s dev my-aqto-project 
-cd my-aqto-project
-composer install
-fin up && fin init-site && fin drush si -y
+cd my-aqto-project && fin up && fin init-site && fin drush si -y
 # Optional: enable some default modules and login as admin
 fin drush en -y aqto_defaults -y && fin uli
 
 # One shot command - just replace [site_name] in the two places below:
-composer create-project twfahey1/aqto_project -s dev [site_name] && cd [site_name] && composer install && fin up && fin init-site && fin drush si -y && fin drush en -y aqto_defaults -y && fin uli
+composer create-project twfahey1/aqto_project -s dev [site_name] && cd [site_name] && fin up && fin init-site && fin drush si -y && fin drush en -y aqto_defaults -y && fin uli
 ```
 
 ## Demo
