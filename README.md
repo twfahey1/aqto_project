@@ -1,4 +1,4 @@
-# *Aqto: AI Driven Quality Technology Operations.*
+# *Aqto: AI-Driven Quality Tooling*
 <!-- Lets do an image here for the images/aqto-logo-western.png -->
 ![Aqto Logo](images/aqto-logo-western.png)
 
